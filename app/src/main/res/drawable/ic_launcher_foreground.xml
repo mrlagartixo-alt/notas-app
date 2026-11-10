@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- folha de papel -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M39,30h24a4,4 0 0 1 4,4v40a4,4 0 0 1 -4,4h-24a4,4 0 0 1 -4,-4v-40a4,4 0 0 1 4,-4z" />
+
+    <!-- linhas de texto -->
+    <path
+        android:fillColor="#FFB9AEF5"
+        android:pathData="M41,42h16v3h-16z" />
+    <path
+        android:fillColor="#FFB9AEF5"
+        android:pathData="M41,50h20v3h-20z" />
+    <path
+        android:fillColor="#FFB9AEF5"
+        android:pathData="M41,58h12v3h-12z" />
+
+    <!-- marcador -->
+    <path
+        android:fillColor="#FFFFB84D"
+        android:pathData="M56,30h6v12l-3,-3l-3,3z" />
+
+    <!-- lápis -->
+    <group
+        android:pivotX="68"
+        android:pivotY="64"
+        android:rotation="45">
+        <path
+            android:fillColor="#FFFFB84D"
+            android:pathData="M65,48h6v22h-6z" />
+        <path
+            android:fillColor="#FFE69A2E"
+            android:pathData="M68,48h1.6v22h-1.6z" />
+        <path
+            android:fillColor="#FFFF8FA3"
+            android:pathData="M65,44h6v4h-6z" />
+        <path
+            android:fillColor="#FFF3D9B0"
+            android:pathData="M65,70h6l-3,8z" />
+        <path
+            android:fillColor="#FF3D3D4E"
+            android:pathData="M66.8,74.7h2.4l-1.2,3.3z" />
+    </group>
+</vector>
